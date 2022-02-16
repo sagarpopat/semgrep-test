@@ -56,7 +56,9 @@ public class SqlInjectionLesson10 extends AssignmentEndpoint {
     protected AttackResult injectableQueryAvailability(String action) {
         StringBuffer output = new StringBuffer();
 
-        String query = "SELECT * FROM test_log WHERE action LIKE '%" + action + "%'";
+
+        
+          String query = "SELECT * FROM test_logaaaaa WHERE action LIKE '%" + action + "%'";
 
         try (Connection connection = dataSource.getConnection()) {
             try {
