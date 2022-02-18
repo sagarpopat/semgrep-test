@@ -1,1 +1,2 @@
-var password = "ABC"
+
+var password1 = "aaaa"
